@@ -1,0 +1,273 @@
+body{
+    background-color: black;
+}
+#flex-container{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 10%;
+    width: 90%;
+}
+#MSG{
+    color: rgb(140, 145, 151);
+    position: relative;
+    left: 50px;
+   
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 50%;
+}
+h4{
+    display: inline-block;
+    position: relative;
+    left: 560px;
+    bottom: 5px;
+    font-size: 30px;
+    color: grey;
+}
+.heading{
+    color: rgb(226, 63, 63);
+    font-size: 30px;
+    font-weight:100;
+}
+.delete{
+    color: black;
+    position: relative;
+    top: 130px;
+    border: 0px;
+    background-color: white;
+   
+}
+.addBtn{
+    color: blue;
+    position: relative;
+    top: 130px;
+    left: 90px;
+    border: 0px;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+#uco{
+    font-size: 40px;
+    color: blue;
+    position: relative;
+    top: 3px;
+    left: 530px;
+}
+#ico{
+    font-size: 40px; 
+    color: blue;
+     position: relative; 
+     left: 200px; 
+     top: 150px;
+}
+#plus{
+    background-color: black;
+    font-size: 40px; 
+    color: blue; 
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    cursor: pointer;
+}
+.add{
+    border-radius: 15px; 
+    font-size: 25px; 
+    background-color: rgb(226, 63, 63); 
+    color: white; 
+    border: 0em;
+}
+#close{
+    border-radius: 15px; 
+    font-size: 25px; 
+    background-color: rgb(226, 63, 63); 
+    color: white; 
+    border: 0em;
+}
+.input{
+    border: 1px solid rgb(226, 63, 63); 
+    font-size: 25px;
+}
+.c{
+    display: inline-block;
+    position: relative;
+    left: 180px;
+
+}
+.material-icons{
+    position: relative;
+    left: 550px;
+    display: inline-block;
+    
+}
+h1{
+    display: inline-block;
+    font-size: 50px;
+   
+}
+
+.flexitem{ 
+    display: none;
+    list-style: none;
+    border: 1px solid  rgb(226, 63, 63);
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 7px 7px 15px grey;
+    border-radius: 15px;
+    background-color: white;
+    animation: cardAnimate 0.2s ease-in 0s 1;
+}
+
+/* font{
+    color: rgb(226, 63, 63);
+    font-size: 30px;
+    font-weight:100;
+    
+} */
+s{
+    color: rgb(226, 63, 63);
+    font-weight: bold;
+    font-size: 25px;   
+}
+.tick{
+    font-size: 25px;
+    display: inline;
+   
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 550px;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+}
+
+.TTP{
+    position: relative;
+    left: 32%;
+    border: 1px solid rgb(226, 63, 63);
+    height: 400px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 7px 7px 15px grey;
+    border-radius: 15px;
+}
+
+
+#listcon{
+    display: none;
+    padding: 10px;
+    border: 2px solid rgb(226, 63, 63);
+    height: 180px;
+    width: 360px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(226, 63, 63);
+    position: absolute;
+    top: 200px;
+    left: 470px;
+    background-color: white;
+    animation: BoxPop 0.2s ease-in 0s 1;
+}
+p{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#addLists{
+    border: 1px solid rgb(226, 63, 63); 
+    font-size: 25px;
+}
+#Itemcon{
+    display: none;
+    padding: 10px;
+    border: 2px solid rgb(226, 63, 63);
+    height: 180px;
+    width: 360px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(226, 63, 63);
+    position: relative;
+    left: 35%;
+    top: -200px;
+    background-color: white;
+}
+.this-list-element {
+    font-size: 20px;
+    color: red;
+    animation: cardAnimate 0.2s ease-in 0s 1;
+}
+#addItem{
+    border-radius: 15px; 
+    font-size: 25px; 
+    background-color: rgb(226, 63, 63); 
+    color: white; 
+    border: 0em;
+}
+#closeItem{
+    border-radius: 15px; 
+    font-size: 25px; 
+    background-color: rgb(226, 63, 63); 
+    color: white; 
+    border: 0em;
+}
+.blur{
+    filter: blur(5px);
+}
+
+@keyframes BoxPop {
+    0% {
+        transform: scale(0);
+    }
+
+    ;
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    ;
+
+    100% {
+        transform: scale(1);
+    }
+
+    ;
+}
+@keyframes boxText {
+    0% {
+        transform: scaleY(0);
+    }
+
+    ;
+
+    100% {
+        transform: scaleY(1)
+    }
+
+    ;
+}
+@keyframes cardAnimate {
+    0% {
+        transform: scaleX(0);
+    }
+
+    ;
+
+    100% {
+        transform: scaleX(1)
+    }
+
+    ;
+} 
